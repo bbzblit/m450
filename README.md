@@ -491,4 +491,6 @@ Hier wird die default Fehlermeldung von Spring Boot angezeigt, der besagt, dass 
 **Screenshot 2**:
 
 ![Screenshot from 2023-12-05 10-39-31](https://github.com/bbzblit/m450/assets/99135388/f363275f-3c88-483c-b15d-ffcaa32fd7c4)
+
+
 Hier wurde ein Rechtschreibfehler in der Fehlermeldung gemacht. Anstatt “an title” müsste “a title” stehen.
