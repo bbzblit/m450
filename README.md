@@ -484,13 +484,15 @@ Für eine bessere Verwendbarkeit wäre es vorteilhaft, wenn diese auf Deutsch er
 
 **Screenshot 1**:
 
+
 ![Screenshot from 2023-12-05 10-43-04](https://github.com/bbzblit/m450/assets/99135388/7a020796-09f6-4e10-8703-c10d0dfbd7cc)
+
 
 Hier wird die default Fehlermeldung von Spring Boot angezeigt, der besagt, dass die Verbindung zur Datenbank nicht aufgebaut werden konnte. Dieser ist schwer für den user verständlich und könnte auch sensitive Daten beinhalten
 
 **Screenshot 2**:
 
-![Screenshot from 2023-12-05 10-39-31](https://github.com/bbzblit/m450/assets/99135388/f363275f-3c88-483c-b15d-ffcaa32fd7c4)
 
+![Screenshot from 2023-12-05 10-39-31](https://github.com/bbzblit/m450/assets/99135388/f363275f-3c88-483c-b15d-ffcaa32fd7c4)
 
 Hier wurde ein Rechtschreibfehler in der Fehlermeldung gemacht. Anstatt “an title” müsste “a title” stehen.
