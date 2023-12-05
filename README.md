@@ -496,10 +496,11 @@ Hier wird die default Fehlermeldung von Spring Boot angezeigt, der besagt, dass 
 
 ![Screenshot from 2023-12-05 10-39-31](https://github.com/bbzblit/m450/assets/99135388/f363275f-3c88-483c-b15d-ffcaa32fd7c4)
 
+Hier wurde ein Rechtschreibfehler in der Fehlermeldung gemacht. Anstatt “an title” müsste “a title” stehen.
 
 - **Screenshot 3**:
 
 
-![image](https://github.com/bbzblit/m450/assets/99135388/60b6fca2-b50b-4a9e-b95c-655ceee9a3f9)
+![image](https://github.com/bbzblit/m450/assets/99135388/65c2574c-fc40-4ff9-b31c-52ad787cb3e1)
 
-Hier wurde ein Rechtschreibfehler in der Fehlermeldung gemacht. Anstatt “an title” müsste “a title” stehen.
+Hier sieht man das Spring Boot nicht auf die Datenbank zugreifen konnte → da der Port nicht offen ist weil die Datenbank nicht läuft.
