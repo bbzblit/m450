@@ -7,6 +7,7 @@ Die Integration von Softwarekomponenten ist ein kritischer Schritt in der Entwic
 
 
 # 2 Testumgebung
+Die Software, die wir testen, ist aus dem bereits absolvierten Modul 322. Es ist eine Applikation, bei der man seine Schulnoten eintragen und verwalten kann. Folgend die Software- und Hardwarekonfiguration.
 
 
 <table>
@@ -360,7 +361,7 @@ Erwartete Ergebnisse:
    </td>
    <td>0
    </td>
-   <td>Funktioniert ohne Probleme.
+   <td>Funktioniert ohne Probleme. Errormessage ist in Screenshot 1 ersichtlich
    </td>
   </tr>
   <tr>
@@ -482,7 +483,7 @@ Für eine bessere Verwendbarkeit wäre es vorteilhaft, wenn diese auf Deutsch er
 
 # 6 Anhang
 
-**Screenshot 1**:
+- **Screenshot 1**:
 
 
 ![Screenshot from 2023-12-05 10-43-04](https://github.com/bbzblit/m450/assets/99135388/7a020796-09f6-4e10-8703-c10d0dfbd7cc)
@@ -490,9 +491,15 @@ Für eine bessere Verwendbarkeit wäre es vorteilhaft, wenn diese auf Deutsch er
 
 Hier wird die default Fehlermeldung von Spring Boot angezeigt, der besagt, dass die Verbindung zur Datenbank nicht aufgebaut werden konnte. Dieser ist schwer für den user verständlich und könnte auch sensitive Daten beinhalten
 
-**Screenshot 2**:
+- **Screenshot 2**:
 
 
 ![Screenshot from 2023-12-05 10-39-31](https://github.com/bbzblit/m450/assets/99135388/f363275f-3c88-483c-b15d-ffcaa32fd7c4)
+
+
+- **Screenshot 3**:
+
+
+![image](https://github.com/bbzblit/m450/assets/99135388/60b6fca2-b50b-4a9e-b95c-655ceee9a3f9)
 
 Hier wurde ein Rechtschreibfehler in der Fehlermeldung gemacht. Anstatt “an title” müsste “a title” stehen.
