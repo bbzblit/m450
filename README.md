@@ -41,7 +41,7 @@ Die Integration von Softwarekomponenten ist ein kritischer Schritt in der Entwic
   <tr>
    <td>Datenbank 
    </td>
-   <td>H2 (eingebaut in Spring Boot)
+   <td>MongoDB
    </td>
   </tr>
   <tr>
@@ -352,7 +352,7 @@ Erwartete Ergebnisse:
    </td>
    <td>0
    </td>
-   <td>Funktioniert ohne Probleme
+   <td>Funktioniert ohne Probleme.
    </td>
   </tr>
   <tr>
@@ -360,7 +360,7 @@ Erwartete Ergebnisse:
    </td>
    <td>0
    </td>
-   <td>Funktioniert ohne Probleme
+   <td>Funktioniert ohne Probleme.
    </td>
   </tr>
   <tr>
@@ -368,7 +368,9 @@ Erwartete Ergebnisse:
    </td>
    <td>2
    </td>
-   <td>Beim Benutzen der Applikation wird zwar ein Error angezeigt. Allerdings handelt es sich dabei um den default Error von Spring Boot. Für eine bessere Verwendbarkeit wäre es vorteilhaft, wenn diese auf Deutsch ersichtlich wäre
+   <td>Beim Benutzen der Applikation wird zwar ein Error angezeigt. Allerdings handelt es sich dabei um den default Error von Spring Boot. (Screenshot 1 im Anhang)
+<p>
+Für eine bessere Verwendbarkeit wäre es vorteilhaft, wenn diese auf Deutsch ersichtlich wäre.
    </td>
   </tr>
   <tr>
@@ -388,7 +390,7 @@ Erwartete Ergebnisse:
    </td>
    <td>0
    </td>
-   <td>Alle Daten werden korrekt und vollständig in der UI angezeigt. Auch Umlaute sind korrekt dargestellt
+   <td>Alle Daten werden korrekt und vollständig in der UI angezeigt. Auch Umlaute sind korrekt dargestellt.
    </td>
   </tr>
   <tr>
@@ -396,7 +398,7 @@ Erwartete Ergebnisse:
    </td>
    <td>0
    </td>
-   <td>Alle Daten werden korrekt geändert + API request gibt einen HTTP 200 zurück
+   <td>Alle Daten werden korrekt geändert + API request gibt einen HTTP 200 zurück.
    </td>
   </tr>
   <tr>
@@ -404,7 +406,7 @@ Erwartete Ergebnisse:
    </td>
    <td>0
    </td>
-   <td>Daten wurden gelöscht
+   <td>Daten wurden gelöscht.
    </td>
   </tr>
   <tr>
@@ -416,7 +418,7 @@ Erwartete Ergebnisse:
    </td>
    <td>0
    </td>
-   <td>Funktioniert
+   <td>Funktioniert.
    </td>
   </tr>
   <tr>
@@ -424,7 +426,9 @@ Erwartete Ergebnisse:
    </td>
    <td>1
    </td>
-   <td>Funktioniert - Allerdings hat es einen Rechtschreibfehler in der Fehlermeldung
+   <td>Funktioniert - Allerdings hat es einen Rechtschreibfehler in der Fehlermeldung.
+<p>
+(Screenshot 2 im Anhang)
    </td>
   </tr>
   <tr>
@@ -432,20 +436,67 @@ Erwartete Ergebnisse:
    </td>
    <td>1
    </td>
-   <td>Gleiches Problem wie bei Testfall 9het
+   <td>Gleiches Problem wie bei Testfall 9. (Screenshot 2 im Anhang)
    </td>
   </tr>
 </table>
 
 
-Bewertungsskala:
+**Bewertungsskala**:
 
-0 kein Mangel
 
-1 belangloser Mangel Verwendung möglich, Brauchbarkeit ist vorhanden, Mängel sollte dennoch nicht vorkommen
+<table>
+  <tr>
+   <td>0
+   </td>
+   <td>kein Mangel
+   </td>
+  </tr>
+  <tr>
+   <td>1
+   </td>
+   <td>belangloser Mangel Verwendung möglich, Brauchbarkeit ist vorhanden, Mängel sollte dennoch nicht vorkommen
+   </td>
+  </tr>
+  <tr>
+   <td>2
+   </td>
+   <td>leichter Mangel Verwendung möglich, Brauchbarkeit ist nur wenig beeinträchtigt
+   </td>
+  </tr>
+  <tr>
+   <td>3
+   </td>
+   <td>schwerer Mangel Verwendung ist noch möglich, Brauchbarkeit ist stark verringert
+   </td>
+  </tr>
+  <tr>
+   <td>4
+   </td>
+   <td>kritischer Mangel unbrauchbar
+   </td>
+  </tr>
+</table>
 
-2 leichter Mangel Verwendung möglich, Brauchbarkeit ist nur wenig beeinträchtigt
 
-3 schwerer Mangel Verwendung ist noch möglich, Brauchbarkeit ist stark verringert
 
-4 kritischer Mangel unbrauchbar
+# 6 Anhang
+
+**Screenshot 1**:
+
+
+
+![Image1](images/image1.png)
+
+
+Hier wird die default Fehlermeldung von Spring Boot angezeigt, der besagt, dass die Verbindung zur Datenbank nicht aufgebaut werden konnte. Dieser ist schwer für den user verständlich und könnte auch sensitive Daten beinhalten
+
+**Screenshot 2**:
+
+
+![Image2](images/image2.png
+
+![alt_text](images/image2.png "image_tooltip")
+
+
+Hier wurde ein Rechtschreibfehler in der Fehlermeldung gemacht. Anstatt “an title” müsste “a title” stehen.
