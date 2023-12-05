@@ -361,7 +361,7 @@ Erwartete Ergebnisse:
    </td>
    <td>0
    </td>
-   <td>Funktioniert ohne Probleme. Errormessage ist in Screenshot 1 ersichtlich
+   <td>Funktioniert ohne Probleme. (Screenshot 3 im Anhang)
    </td>
   </tr>
   <tr>
